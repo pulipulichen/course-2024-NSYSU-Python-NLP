@@ -9,7 +9,7 @@ import pandas as pd
 data = []
 
 # Iterate through sentences and entities.
-for sentence_idx, (sentence, sentence_ner) in enumerate(zip(text, ner)):
+for sentence_idx, (sentence, sentence_ner) in enumerate(zip(text_array, ner)):
   for entity in sentence_ner:
     word = entity.word
     ner_tag = entity.ner
