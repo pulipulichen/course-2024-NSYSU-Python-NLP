@@ -18,7 +18,8 @@ for text_idx, text in enumerate(text_list):
    predicted_sentiment = sentiment_labels[prediction]
 
    # Display the sentiment prediction result of the text.
-   print(text)
+   print(f"Text: {text}")
+   print(f"Preprocessed text: {preprocessed_text}")
    print(f"Predicted sentiment: {predicted_sentiment}")
    print(f"Probability: {probabilities[0][prediction].item()}")
 
