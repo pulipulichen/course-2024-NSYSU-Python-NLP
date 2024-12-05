@@ -9,15 +9,15 @@ import pandas as pd
 data = []
 
 # Iterate through sentences and entities.
-for sentence_idx, (sentence, sentence_ner) in enumerate(zip(text_list, ner)):
-  for entity in sentence_ner:
+for text_idx, (text, text_ner) in enumerate(zip(text_list, ner)):
+  for entity in text_ner:
     word = entity.word
     ner_tag = entity.ner
     start_idx = entity.idx[0]
     end_idx = entity.idx[1]
 
     # Append the data for each entity to the list
-    data.append([sentence_idx, word, ner_tag, start_idx, end_idx])
+    data.append([text_idx, word, ner_tag, start_idx, end_idx])
 
 
 # Create the DataFrame.
