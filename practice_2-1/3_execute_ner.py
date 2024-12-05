@@ -1,5 +1,5 @@
 """"
-執行NER
+執行NER分析
 """
 
 # Perform NER on text_array and store the result in the ner variable.

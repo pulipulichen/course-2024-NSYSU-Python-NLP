@@ -1,5 +1,5 @@
 """"
-準備NER函數
+準備NER工具
 """
 
 # Install ckip-transformers package.

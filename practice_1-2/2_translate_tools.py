@@ -1,5 +1,5 @@
 """"
-準備翻譯函數
+準備翻譯工具
 """
 
 # Install Google Translator package version 3.1.0a0.

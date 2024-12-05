@@ -1,5 +1,5 @@
 """
-讀取input.txt
+設定text_array
 """
 
 # Initialize the input_string variable.
