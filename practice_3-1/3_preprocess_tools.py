@@ -9,7 +9,7 @@
 # Import OpenCC package for conversion.
 import opencc
 
-# Remote symbols and convert Traditional Chinese text to Simplified Chinese.
+# Remove symbols and convert Traditional Chinese text to Simplified Chinese.
 def preprocess_text(text: str) -> str:
     
     # Remove special symbols.

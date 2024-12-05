@@ -8,7 +8,7 @@ result = []
 # PProcess each `text`` string within the `text_list`.
 for text_idx, text in enumerate(text_list):
 
-   # Remote symbols and convert Traditional Chinese text to Simplified Chinese
+   # Remove symbols and convert Traditional Chinese text to Simplified Chinese
    preprocessed_text = preprocess_text(text)
 
    # Conduct the sentiment pretiction of the text.
