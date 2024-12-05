@@ -8,7 +8,7 @@ import pandas as pd
 # Create an empty list to store the data.
 data = []
 
-# Iterate through sentences and entities
+# Iterate through sentences and entities.
 for sentence_idx, (sentence, sentence_ner) in enumerate(zip(text, ner)):
   for entity in sentence_ner:
     word = entity.word
