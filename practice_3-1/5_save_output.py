@@ -10,4 +10,3 @@ df = pd.DataFrame(result, columns=["text_idx", "predicted_sentiment", "probabili
 
 # Save the DataFrame to a CSV file.
 df.to_csv("output.csv", index=False, encoding="utf-8")
-
