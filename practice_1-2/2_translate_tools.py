@@ -2,7 +2,7 @@
 準備翻譯工具
 """
 
-# Install Google Translator package version 3.1.0a0.
+# Install Google Translator package `googletrans` version 3.1.0a0.
 # Package detail: https://pypi.org/project/googletrans/
 !pip install googletrans==3.1.0a0
 

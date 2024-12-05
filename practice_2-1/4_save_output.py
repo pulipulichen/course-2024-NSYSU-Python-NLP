@@ -2,7 +2,7 @@
 儲存NER結果到output.csv
 """
 
-# Import the pandas package needed for creating tables.
+# Import the `pandas` package needed for creating tables.
 import pandas as pd
 
 # Create an empty list to store the data.
