@@ -5,7 +5,7 @@
 # Initialize the input_string variable.
 input_string = "" 
 
-# Load input.txt content to input_string.
+# Load the content of input.txt to input_string.
 with open('input.txt', 'r') as file:
   input_string = file.read()
   
