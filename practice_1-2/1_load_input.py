@@ -1,4 +1,6 @@
-# 讀取input.txt
+"""
+讀取input.txt
+"""
 
 # Initialize the input_string variable.
 input_string = "" 

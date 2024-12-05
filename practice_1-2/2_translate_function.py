@@ -1,4 +1,6 @@
-# 準備翻譯函數
+""""
+準備翻譯函數
+"""
 
 # Install Google Translator package version 3.1.0a0.
 # Package detail: https://pypi.org/project/googletrans/

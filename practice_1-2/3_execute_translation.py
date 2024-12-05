@@ -1,4 +1,6 @@
-# 執行翻譯
+"""
+執行翻譯
+"""
 
 # Translate input_string to language code
 # Language code list: https://cloud.google.com/translate/docs/languages
