@@ -4,10 +4,7 @@
 
 # Translate input_string to language code
 # Language code list: https://cloud.google.com/translate/docs/languages
-output_result = translator.translate(input_string, dest=dest_lang_code)
-
-# Get the text of the result of translation
-output_string = output_result.text
+output_string = GoogleTranslator(source='auto', target=dest_lang_code).translate(text=input_string)
 
 # Check the result of translation
 output_string

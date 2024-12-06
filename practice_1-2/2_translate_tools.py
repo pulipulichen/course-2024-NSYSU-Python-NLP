@@ -2,17 +2,13 @@
 準備翻譯工具
 """
 
-# Install Google Translator package `googletrans` version 3.1.0a0.
-# Package detail: https://pypi.org/project/googletrans/
-!pip install googletrans==3.1.0a0
+# Install Google Translator package `deep-translator` version 1.11.4.
+# Package detail: https://pypi.org/project/deep-translator/
+!pip install deep-translator==1.11.4
 
-# Import Google Translator package.
-from googletrans import Translator
+# Import GoogleTranslator from `deep-translator` package
+from deep_translator import GoogleTranslator
 
-# Initialize the translator object.
-# translator = Translator(service_urls=['translate.google.com'])
-translator = Translator()
-
-# Defind the destination language.
-# Language code list: https://cloud.google.com/translate/docs/languages
-dest_lang_code = 'zh-tw'
+# Defind the target language.
+# Language code list: https://stackoverflow.com/questions/75826605/my-python-discord-bot-which-is-supposed-to-automatically-translate-messages-does
+target_lang_code = 'zh-TW'

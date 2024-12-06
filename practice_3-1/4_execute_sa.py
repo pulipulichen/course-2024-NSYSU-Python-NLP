@@ -5,8 +5,10 @@
 # Declare an empty list for storing the result
 result = []
 
-# PProcess each `text`` string within the `text_list`.
+# Process each `text`` string within the `text_list`.
 for text_idx, text in enumerate(text_list):
+   # Initialize the preprocessed_text.
+   preprocessed_text = text
 
    # Remove symbols and convert Traditional Chinese text to Simplified Chinese
    preprocessed_text = preprocess_text(text)
