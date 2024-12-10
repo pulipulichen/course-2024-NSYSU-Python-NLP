@@ -16,6 +16,7 @@ translator = Translator()
 # Defind the destination language.
 # Language code list: https://cloud.google.com/translate/docs/languages
 dest_lang_code = 'zh-tw'
+
 # Remove symbols and convert Traditional Chinese text to Simplified Chinese.
 def preprocess_text(text: str) -> str:
     # Remove special symbols.
